@@ -76,3 +76,6 @@ This real-time database setup ensures that all users see the same drawing state 
 - WebSocket (ws) for real-time communication
 - Firebase Realtime Database for data persistence
 - CSS3 for styling and responsiveness
+
+## License
+This project is licensed under the MIT License.
