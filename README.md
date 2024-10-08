@@ -37,4 +37,8 @@ Real-time collaborative drawing board built with Node.js, Express, WebSockets, a
   ```
 - Open your browser and visit http://localhost:3000
    
-
+## Tech Stack
+- Node.js and Express for the server
+- WebSocket (ws) for real-time communication
+- Firebase Realtime Database for data persistence
+- CSS3 for styling and responsiveness
