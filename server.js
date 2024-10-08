@@ -14,7 +14,7 @@ const port = 3000;
 const serviceAccount = require('./service-account-key.json');
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
-  databaseURL: "https://test-3a5ee-default-rtdb.europe-west1.firebasedatabase.app" // Replace with your database URL
+  databaseURL: "" // Replace with your database URL
 });
 
 const db = admin.database();
