@@ -38,6 +38,26 @@ Real-time collaborative drawing board built with Node.js, Express, WebSockets, a
   ```
 - Open your browser and visit http://localhost:3000
    
+
+## Accessing the Application via Ngrok
+
+If you'd like to share your drawing board with others over the internet, you can use Ngrok to expose your local development server.
+
+1. Install Ngrok: [https://ngrok.com/download](https://ngrok.com/download)
+2. Run your local server:
+   ```bash
+   node server.js
+   ```
+- Open a new terminal and start Ngrok on port ``3000``:
+
+  ```bash
+  ngrok http 3000
+  ```
+- Share the public URL provided by Ngrok to allow external access to the drawing board.
+- Users can now collaborate on the drawing board in real time from any location using this public URL.
+
+- This setup allows anyone to collaborate on your **SketchSync** project remote
+
 ## Real-time Database Functionality
 
 This application uses Firebase Realtime Database to store and synchronize drawing data across all connected clients. Here's how it works:
@@ -71,25 +91,6 @@ This application uses Firebase Realtime Database to store and synchronize drawin
 5. **Clearing the Board**: When a user clears the board, all drawing data is removed from the database, and a 'clear' message is sent to all clients.
 
 This real-time database setup ensures that all users see the same drawing state at all times, enabling true real-time collaboration.
-
-## Accessing the Application via Ngrok
-
-If you'd like to share your drawing board with others over the internet, you can use Ngrok to expose your local development server.
-
-1. Install Ngrok: [https://ngrok.com/download](https://ngrok.com/download)
-2. Run your local server:
-   ```bash
-   node server.js
-   ```
-- Open a new terminal and start Ngrok on port ``3000``:
-
-  ```bash
-  ngrok http 3000
-  ```
-- Share the public URL provided by Ngrok to allow external access to the drawing board.
-- Users can now collaborate on the drawing board in real time from any location using this public URL.
-
-- This setup allows anyone to collaborate on your **SketchSync** project remote
 
 ## Tech Stack
 - Node.js and Express for the server
