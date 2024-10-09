@@ -3,6 +3,7 @@ Real-time collaborative drawing board built with Node.js, Express, WebSockets, a
 
 ## Features
 
+![DrawingBoard](https://simkafire.com/img/drawingboard.png)
 - Real-time drawing collaboration
 - Color picker and palette
 - Adjustable brush sizes
