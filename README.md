@@ -13,7 +13,7 @@ Real-time collaborative drawing board built with Node.js, Express, WebSockets, a
 
 ## Live Demo
 You can access the live demo of the SketchSync drawing board Here:
-- Visit the live demo :  [Live Demo](https://66a5-54-82-56-209.ngrok-free.app) 
+- Visit the live demo :  [Live Demo](https://3b2b-54-82-56-209.ngrok-free.app) 
 - Collaborate seamlessly with team members in real-time, utilizing the drawing board to brainstorm ideas, refine designs with color 
   adjustments, and fine-tune your work.
 - All updates are synchronized instantly across all connected users via Firebase Realtime Database.
