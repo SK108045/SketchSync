@@ -11,6 +11,12 @@ Real-time collaborative drawing board built with Node.js, Express, WebSockets, a
 - Clear board functionality
 - Responsive design
 
+## Live Demo
+You can access the live demo of the SketchSync drawing board Here:
+- Visit the live demo : 
+- Collaborate seamlessly with team members in real-time, utilizing the drawing board to brainstorm ideas, refine designs with color 
+  adjustments, and fine-tune your work.
+- All updates are synchronized instantly across all connected users via Firebase Realtime Database.
 
 ## Setup
 
